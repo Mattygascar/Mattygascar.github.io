@@ -6,4 +6,4 @@ Username: Mattygascar
 Repo: https://github.com/Mattygascar/Mattygascar.github.io.git
 Pages: Mattygascar.github.io
 
-# For Our VSCode Commits
+# For Our Bash Commits
