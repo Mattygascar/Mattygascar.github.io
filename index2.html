@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matthew's Home Page</title>
+        <style>
+            body {
+                font-family: 'Courier New', Courier, monospace;
+                background-color: #a0c4ff;
+                margin: 0;
+                padding: 0;
+            }
+            header, h1, h2, h3 {
+                color: white;
+                background-color: rgb(34, 85, 24);
+                font-weight: 200;
+                padding: 10px;
+                margin: 0;
+                font-family: inherit;
+            }
+            h1 { font-size: 28px; }
+            h2 { font-size: 24px; }
+            h3 { font-size: 20px; }
+            nav {
+                background-color: rgb(173, 216, 230);
+                padding: 20px;
+                text-align: center;
+            }
+            nav a {
+                color: black;
+                text-decoration: underline;
+                margin: 0 15px;
+                font-weight: bold;
+            }
+            section {
+                padding: 10px;
+                margin: 10px 0;
+                background-color: white;
+            }
+            input, textarea, button {
+                display: block;
+                margin: 5px 0;
+                padding: 8px;
+            }
+            button {
+                background-color: rgb(52, 152, 219);
+                color: white;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>Matthew Gates' Home Page</header>
+
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#goals">Goals</a>
+            <a href="#favorite-media">Favorite Media</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="about-me">
+            <h1>About Me</h1>
+            <p>My name is Matthew Gates. I am originally from Arizona but have lived in Utah for the last few years with my cat Olive. I watch too much soccer.</p>
+            <img src="OliveBed.jpg" width="250" alt="Matthew's cat Olive resting in bed">
+        </section>
+
+        <section id="goals">
+            <h1>Goals</h1>
+            <p>I have a life goal of traveling to South America and Africa. I would really like to visit Argentina and climb Mt. Kilimanjaro</p>
+        </section>
+
+        <section id="favorite-media">
+            <h2>Favorite Media</h2>
+            <h3>Movies</h3>
+            <p>My favorite movie is The Ghost and the Darkness.</p>
+            <h3>Video Games</h3>
+            <p>My favorite video game currently is Sekiro: Shadows Die Twice.</p>
+            <h3>Television</h3>
+            <p>My favorite television shows are It's Always Sunny in Philadelphia and Arrested Development.</p>
+        </section>
+
+        <section id="links">
+            <h2>Links</h2>
+            <p><a href="https://www.premierleague.com" target="_blank">English Premier League Scores</a></p>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </body>
+</html>
