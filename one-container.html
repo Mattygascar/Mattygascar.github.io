@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matthew Gates</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #8FBC8F;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+        }
+
+        .container {
+            width: 700px;
+            background-color: #D3D3D3;
+            border-radius: 40px;
+            padding: 20px;
+            color: black;
+            position: relative;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: rgb(32, 37, 112);
+            position: relative;
+            top: 10px;
+        }
+
+        #profile-picture {
+            height: 400px;
+            width: auto;
+            border-radius: 20px;
+            display: block;
+            margin: 20px auto;
+            position: relative;
+            top: 30px;
+        }
+
+        nav {
+            position: relative;
+            top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a button {
+            background-color: lavender;
+            width: 183px;
+            height: 50px;
+            border-radius: 25px;
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+        }
+
+        nav a:hover button {
+            background-color: #d8bfd8;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        #about {
+            background-color: #f8f8f8;
+            border-radius: 20px;
+            padding: 20px;
+            position: relative;
+            top: 100px;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: rgb(32, 37, 112);
+            margin: 0 0 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Matthew Gates' Profile</h1>
+        <img src="MattProfile.JPG" id="profile-picture" alt="Profile Picture">
+
+        <nav>
+            <a href="#about"><button>About</button></a>
+            <a href="#"><button>Why</button></a>
+            <a href="#"><button>Contact</button></a>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Matthew Gates. I am originally from Arizona but have lived in Utah for the last few years with my cat Olive. I watch too much soccer.</p>
+        </section>
+    </div>
+</body>
+</html>
