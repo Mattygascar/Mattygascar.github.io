@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Time</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Trivia Game</h1>
+    </header>
+    <main>
+        <section id="one">
+            <h3>Question 1: Who directed the movie *Inception*?</h3>
+            <div class="buttonGroup">
+                <button onclick="addValue(1, 'one', this)">Christopher Nolan</button>
+                <button onclick="addValue(0, 'one', this)">Steven Spielberg</button>
+                <button onclick="addValue(0, 'one', this)">James Cameron</button>
+                <button onclick="addValue(0, 'one', this)">Quentin Tarantino</button>
+            </div>
+        </section>
+        <section id="two">
+            <h3>Question 2: Which artist sang 'Rolling in the Deep'?</h3>
+            <div class="buttonGroup">
+                <button onclick="addValue(0, 'two', this)">Lady Gaga</button>
+                <button onclick="addValue(1, 'two', this)">Adele</button>
+                <button onclick="addValue(0, 'two', this)">Beyoncé</button>
+                <button onclick="addValue(0, 'two', this)">Taylor Swift</button>
+            </div>
+        </section>
+        <section id="submit">
+            <button onclick="location.href='results.html'">Submit</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trivia Game</p>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>
