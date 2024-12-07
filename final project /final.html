@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Weather App by Matthew Gates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        A Weather App by Matthew Gates
+        <div id="local-time-header">Local Time: --:--</div>
+    </header>
+    <main>
+        <div id="error-message">
+            <p id="error-text">Error message here.</p>
+        </div>
+        <div id="weather-display">
+            <h1 id="city-name">City Name</h1>
+            <p id="temperature">Temperature: --°F</p>
+            <p id="conditions">Conditions: --</p>
+            <p id="feels-like">Feels Like: --°F</p>
+            <p id="humidity">Humidity: --%</p>
+            <p id="wind-speed">Wind Speed: -- mph</p>
+        </div>
+        <div id="search-bar">
+            <input id="city-input" type="text" placeholder="Enter a city name" />
+            <button id="get-weather">Get Weather</button>
+        </div>
+    </main>
+    <script src="app.js" defer></script>
+</body>
+</html>
